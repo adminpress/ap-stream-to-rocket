@@ -1,5 +1,5 @@
 === AP Stream to Rocket ===
-Contributors: f.staude
+Contributors: f.staude, stk_jj
 Tags: rocket, rocket.chat, rocketchat, stream, logging, hosted, actions, activity, activity log, activity logs, admin actions, analytics, audit, audit log, audit logs, change, changes, log, logs, stream, tracking, troubleshooting, wp stream
 Requires at least: 4.3
 Tested up to: 4.6.1

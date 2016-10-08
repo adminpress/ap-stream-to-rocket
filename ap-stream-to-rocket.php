@@ -3,7 +3,7 @@
  * Plugin Name: AP Stream to Rocket
  * Plugin URI: https://wordpress.org/plugins/ap-stream-to-rocket/
  * Description: Send Stream logs to rocket.chat.
- * Author: f.staude
+ * Author: f.staude, stk_jj
  * Version: 0.0.2
  * Author URI: https://staude.net/
  * Text Domain: ap-stream-to-rocket
