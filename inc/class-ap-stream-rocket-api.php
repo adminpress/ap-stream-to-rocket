@@ -1,6 +1,6 @@
 <?php
 
-class Stream_Rocket_API {
+class AP_Stream_Rocket_API {
 
 	public $stream;
 	public $options;

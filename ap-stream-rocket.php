@@ -12,10 +12,10 @@
  * GitHub Branch: master
  */
 
-require_once dirname( __FILE__ ) . '/inc/class-stream-rocket-api.php';
+require_once dirname( __FILE__ ) . '/inc/class-ap_stream-rocket-api.php';
 
-function register_stream_rocket() {
-	$stream_rocket = new Stream_Rocket_API();
+function register_ap_stream_rocket() {
+	$stream_rocket = new AP_Stream_Rocket_API();
 }
-add_action( 'init', 'register_stream_rocket' );
+add_action( 'init', 'register_ap_stream_rocket' );
 
