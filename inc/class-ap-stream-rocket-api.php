@@ -6,6 +6,7 @@ class AP_Stream_Rocket_API {
 	public $options;
 
 	public function __construct() {
+        load_plugin_textdomain( 'ap-stream-to-rocket', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 		if ( ! class_exists( 'WP_Stream\Plugin' ) ) {
 			add_action( 'admin_notices', array( $this, 'stream_not_found_notice' ) );
