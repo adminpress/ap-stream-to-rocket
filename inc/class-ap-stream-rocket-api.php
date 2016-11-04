@@ -111,13 +111,13 @@ class AP_Stream_Rocket_API {
         $username = '';
         $icon_emoji = '';
         if ( array_key_exists( 'rocket_channel', $this->options ) ) {
-            $channel = options['rocket_channel'];
+            $channel = $this->options['rocket_channel'];
         }
         if ( array_key_exists( 'rocket_username', $this->options ) ) {
-            $username = options['rocket_username'];
+            $username = $this->options['rocket_username'];
         }
         if ( array_key_exists( 'rocket_icon_emoji', $this->options ) ) {
-            $icon_emoji = options['rocket_icon_emoji'];
+            $icon_emoji = $this->options['rocket_icon_emoji'];
         }
 
 		$data = array(
