@@ -107,11 +107,24 @@ class AP_Stream_Rocket_API {
 							         '%user_login%' => $user->user_login,
 								  ) ) );
 
+        $channel = '';
+        $username = '';
+        $icon_emoji = '';
+        if ( array_key_exists( 'rocket_channel', $this->options ) ) {
+            $channel = options['rocket_channel'];
+        }
+        if ( array_key_exists( 'rocket_username', $this->options ) ) {
+            $username = options['rocket_username'];
+        }
+        if ( array_key_exists( 'rocket_icon_emoji', $this->options ) ) {
+            $icon_emoji = options['rocket_icon_emoji'];
+        }
+
 		$data = array(
-				'channel'      => $this->options['rocket_channel'],
-				'username'     => $this->options['rocket_username'],
+				'channel'      => $channel,
+				'username'     => $username,
 				'text'         => $messagesend,
-				'icon_emoji'   => $this->options['rocket_icon_emoji'],
+				'icon_emoji'   => $icon_emoji,
 			);
 		$data_string = utf8_encode( json_encode($data));
 

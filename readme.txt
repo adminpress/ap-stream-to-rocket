@@ -3,7 +3,7 @@ Contributors: f.staude, stk_jj
 Tags: rocket, rocket.chat, rocketchat, stream, logging, hosted, actions, activity, activity log, activity logs, admin actions, analytics, audit, audit log, audit logs, change, changes, log, logs, stream, tracking, troubleshooting, wp stream
 Requires at least: 4.3
 Tested up to: 4.6.1
-Stable tag: 0.0.2
+Stable tag: 0.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,9 @@ Based on [Stream to Papertrail](https://wordpress.org/plugins/stream-to-papertra
 3. Set the Incoming Webhook URL, Channel, Emoji Icon and Bot Name for Rocket on your Stream settings screen.
 
 == Changelog ==
+
+= 0.0.3 - November 04, 2016=
+* fix undefined index
 
 = 0.0.2 - October 08, 2016 =
 * translations enabled
