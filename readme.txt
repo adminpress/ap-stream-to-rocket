@@ -2,7 +2,7 @@
 Contributors: f.staude, stk_jj
 Tags: rocket, rocket.chat, rocketchat, stream, logging, hosted, actions, activity, activity log, activity logs, admin actions, analytics, audit, audit log, audit logs, change, changes, log, logs, stream, tracking, troubleshooting, wp stream
 Requires at least: 4.3
-Tested up to: 4.6.1
+Tested up to: 5.0.3
 Stable tag: 0.0.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
