@@ -10,6 +10,7 @@
  * Domain Path: /languages
  * GitHub Plugin URI: https://github.com/adminpress/ap-stream-to-rocket
  * GitHub Branch: master
+ * [](http://coderisk.com/wp/plugin/ap-stream-to-rocket/RIPS-B6sc2fzJtR)
  */
 
 require_once dirname( __FILE__ ) . '/inc/class-ap-stream-rocket-api.php';
